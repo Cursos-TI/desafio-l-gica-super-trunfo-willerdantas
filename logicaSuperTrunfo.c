@@ -95,6 +95,7 @@ int main() {
     // }
 
     printf("Comparação das cartas:\n");
+    printf("\n");
 
     printf("População: \n");
     printf("Carta 1 - %s: %d\n", nome_cidade1, populacao1);
@@ -104,6 +105,7 @@ int main() {
     }else{
         printf("A carta %s - Cidade: %s ganhou\n", cod_carta2, nome_cidade2);
     }
+    printf("\n");
 
     printf("Área\n");
     printf("Carta 1 - %s: %f\n", nome_cidade1, area1);
@@ -113,6 +115,7 @@ int main() {
     }else{
         printf("A carta %s - Cidade: %s ganhou\n", cod_carta2, nome_cidade2);
     }
+    printf("\n");
 
     printf("PIB\n");
     printf("Carta 1 - %s: %f\n", nome_cidade1, pib1);
@@ -122,6 +125,7 @@ int main() {
     }else{
         printf("A carta %s - Cidade: %s ganhou\n", cod_carta2, nome_cidade2);
     }
+    printf("\n");
 
     printf("Pontos turísticos\n");
     printf("Carta 1 - %s: %d\n", nome_cidade1, ponto_turistico1);
@@ -131,6 +135,7 @@ int main() {
     }else{
         printf("A carta %s - Cidade: %s ganhou\n", cod_carta2, nome_cidade2);
     }
+    printf("\n");
 
     printf("Densidade populacional\n");
     printf("Carta 1 - %s: %f\n", nome_cidade1, dens_populacional1);
@@ -140,6 +145,7 @@ int main() {
     }else{
         printf("A carta %s - Cidade: %s ganhou\n", cod_carta2, nome_cidade2);
     }
+    printf("\n");
 
     printf("PIB per capita\n");
     printf("Carta 1 - %s: %f\n", nome_cidade1, pib_percapito1);
@@ -149,6 +155,7 @@ int main() {
     }else{
         printf("A carta %s - Cidade: %s ganhou\n", cod_carta2, nome_cidade2);
     }
+    printf("\n");
 
     printf("Super poder\n");
     printf("Carta 1 - %s: %f\n", nome_cidade1, superPoder1);
